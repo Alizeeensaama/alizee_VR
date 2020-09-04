@@ -4,7 +4,12 @@
   </head>
   <body>
     <a-scene>
-      <a-box position="3 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+
+      <a-assets>
+        <img id="texture" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Flesourirejusquauxoreilles.wordpress.com%2F2014%2F10%2F16%2Fmaquillage-dhalloween-cheshire-cat%2F&psig=AOvVaw1rqWJQ5-dlPelpdMXL-TdJ&ust=1599310140746000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJC3rdvEz-sCFQAAAAAdAAAAABAD">
+      </a-assets>
+
+      <a-box src="#texture" position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
       <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
       <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
       <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
